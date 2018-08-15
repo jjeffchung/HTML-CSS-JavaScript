@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<body id= "thebod" onmouseover="hovertochange_fn()" onmouseout="Beginning_fn()">
+
+<head>
+
+<h1> Title h1 </h1>
+
+<p id ="hw6_id" onmouseover="hovertochange_fn()" onmouseout="Beginning_fn()">Paragraph with ID.</p>
+
+<h1>Another Title h1</h1>
+
+<script type="text/javascript">
+
+function hovertochange_fn(){
+
+  document.getElementById("hw6_id").innerHTML="New Text"; document.getElementById("hw6_id").style.fontSize= "50px";
+  document.getElementById("hw6_id").style.color="red"; document.getElementById("thebod").style.backgroundColor= "blue";
+}
+
+function Beginning_fn(){
+
+  document.getElementById("hw6_id").innerHTML="Paragraph with ID"; document.getElementById("hw6_id").style.fontSize= "";
+  document.getElementById("hw6_id").style.color=""; document.getElementById("thebod").style.backgroundColor= "";
+}
+
+</script>
+
+</head>
+
+</body>
+
+</html>
