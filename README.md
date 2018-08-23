@@ -11,4 +11,7 @@ b) Hover To Change - Color change with mouse hover.
 c) Prompt Message Welcome - A prompt which asks the user for his/her name and returns a welcoming message with the user's name. 
 
 
+2) JavaScript Countdown Timer 
+
+-I followed an online Javascript tutorial 
 
