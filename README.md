@@ -13,5 +13,5 @@ c) Prompt Message Welcome - A prompt which asks the user for his/her name and re
 
 2) JavaScript Countdown Timer 
 
--I followed an online Javascript tutorial 
+-A countdown timer project I did while following an online tutorial, and then added some additional features and edits on my own. The countdown timer offers a breakdown of days, hours, minutes and seconds remaining. 
 
