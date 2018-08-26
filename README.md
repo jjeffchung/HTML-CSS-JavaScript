@@ -28,4 +28,4 @@ c) Prompt Message Welcome - A prompt which asks the user for his/her name and re
 
 5) JavaScript generateTable: Generate and populate a table 
 
--A assignment where the task was to generate and populate a table with data. 
+-A assignment where the task was to generate and populate a table using a for loop.
