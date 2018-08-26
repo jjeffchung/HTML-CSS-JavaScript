@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Hw4</title>
+
+</head>
+
+<body>
+
+<h1>CNIT 133 Hw4</h1>
+
+<table class="MyTable" border="1">
+  <tr>
+    <th>Name</th>
+    <th>Phone</th>
+    <th>Email</th>
+  </tr>
+ <tr>
+ <td>name0</td>
+ <td>415-123-4567</td>
+ <td>name0@abc.com</td>
+ </tr>
+ <tr>
+ <td>name1</td>
+ <td>415-123-5678</td>
+ <td>name1@abc.com</td>
+ </tr>
+ <td>name2</td>
+ <td>415-123-6789</td>
+ <td>name2@abc.com</td>
+ </tr>
+</table>
+
+<script language="JavaScript" type="text/javascript">
+
+var hw4_listname = ["Name 0","Name 1","Name 2"];
+
+var hw4_listphone=["415-123-4567", "415-123-5678", "415-123-6789"];
+
+var hw4_listemail=["name0@abc.com","name1@abc.com","name2@abc.com"];
+
+
+function tablegenerate ('hw4_listname', 'hw4_listphone', 'hw4_listemail') {
+  for (i=0; i<hw4_listname.length; i++)
+  {
+    var $formrow= '<tr><td>' + hw4_listname[i] + '</td><td>' + hw4_listphone[i] + '</td><td>' + hw4_listemail[i] + '</td></tr>';
+    $('.MyTable').append($formrow);
+  }
+}
+
+</script>
+
+</body>
+
+</html>
