@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="Form Validator" content="Customer Form Validator">
+
+<meta http-equiv="Content-Type" content="text/html charset=utf-8">
+
+<title>Form Checker</title>
+
+</head>
+
+<body>
+
+<form id="form1" action="contact.php" onsubmit="return ValidateEverything()" method="post">
+First Name:
+<br></br>
+<input name="First Name" type="text" id="FirstName"</input>
+<br></br>
+Last Name:
+<br></br>
+<input name="Last Name" type="text" id="LastName"</input>
+<br></br>
+Email:
+<br></br>
+<input name="Email" type="text"  id="Email"</input>
+<br></br>
+Phone Number:
+<br></br>
+<input name="Phone Number" type="number" id="PhoneNumber"</input>
+<br></br>
+Number of Guests:
+<br></br>
+<input name="Number of Guests" type="number" id="NumberofGuests"</input>
+<br></br>
+Message:
+<br></br>
+<textarea name:"Message" rows="4" cols="33" wrap="" id="Message"></textarea>
+<br></br>
+<input value= "Submit" type="submit"></input>
+<input value= "Reset" type="reset"></input>
+</form>
+
+<script>
+
+  function ValidateEverything()
+    {
+     var Name = document.getElementById("FirstName").value;
+
+     if (FirstName==null || FirstName=="") {
+       alert ("Please, enter your first name.");
+       return false;
+     }
+
+      var LastName = document.getElementById("LastName").value;
+      if (LastName==null || LastName=="") {
+        alert ("Please, enter your last name.");
+        return false;
+      }
+
+     var Email = document.getElementById("Email").value;
+     var atpos= Email.indexOf("@");
+     var dotpos=Email.lastIndexOf(".");
+
+       if (Email==null|| Email==""){
+         alert ("Please, enter an email address.");
+         return false;
+       }
+
+       else if
+          (atpos <1 || dotpos <atpos +2 ||dotpos+2>=Email.length){
+            alert("Please, enter a valid email address. Include the @ and . sign.");
+            return false;
+          }
+
+      var PhoneNumber = document.getElementById("PhoneNumber").value;
+        if (PhoneNumber==null || PhoneNumber=="") {
+            alert ("Please, enter your phone number.");
+            return false;
+          }
+
+      var NumberofGuests = document.getElementById("NumberofGuests").value;
+          if (NumberofGuests==null || NumberofGuests=="") {
+            alert ("Please, enter the amount of guests you will bring.");
+            return false;
+          }
+
+       var Message = document.getElementById("Message").value;
+
+      if (Message==null || Message==""){
+        alert ("Please, enter a message.");
+        return false;
+      }
+  }
+
+  </script>
+
+</body>
+
+</html>
