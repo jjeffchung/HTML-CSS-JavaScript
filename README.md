@@ -10,7 +10,6 @@ b) Hover To Change - Color change with mouse hover.
 
 c) Prompt Message Welcome - A prompt which asks the user for his/her name and returns a welcoming message with the user's name. 
 
-
 2) JavaScript Countdown Timer 
 
 -A countdown timer project I did while following an online tutorial, and then added some additional features and edits on my own. The countdown timer offers a breakdown of days, hours, minutes and seconds remaining. 
@@ -18,4 +17,8 @@ c) Prompt Message Welcome - A prompt which asks the user for his/her name and re
 3) JavaScript Form Validator
 
 -A form validator which provides real-time validation for the user's input. 
+
+4) Short Task 5: Geolocation 
+
+-An assignment where the goal was to implement the Google Maps Geolocation API to find the location of the user. 
 
