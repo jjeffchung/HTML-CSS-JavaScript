@@ -2,7 +2,7 @@ A collection of my HTML, CSS and Javacript assignments from my Web Application D
 
 1) JavaScript Functions Library
 
--An array of JavaScript functions I have developed during my JavaScript courses
+-An array of JavaScript functions I have developed during my JavaScript courses.
 
 a) Click To Change - Text change with button click. 
 
@@ -28,4 +28,4 @@ c) Prompt Message Welcome - A prompt which asks the user for his/her name and re
 
 5) JavaScript generateTable
 
--A assignment where the task was to generate and populate a table using a for loop.
+-An assignment where the task was to generate and populate a table using a for loop.
