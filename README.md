@@ -25,3 +25,7 @@ c) Prompt Message Welcome - A prompt which asks the user for his/her name and re
 
 -A group project assignment where each team member was given a short task to accomplish. My task was to implement the Google Maps Geolocation API to find the location of the user. 
 
+
+5) Generate and Populate a table with JavaScript
+
+-A assignment where the task was to generate and populate a table with data. 
