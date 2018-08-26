@@ -15,3 +15,7 @@ c) Prompt Message Welcome - A prompt which asks the user for his/her name and re
 
 -A countdown timer project I did while following an online tutorial, and then added some additional features and edits on my own. The countdown timer offers a breakdown of days, hours, minutes and seconds remaining. 
 
+3) JavaScript Form Validator
+
+-A form validator which provides real-time validation for the user's input. 
+
